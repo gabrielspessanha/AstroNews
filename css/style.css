@@ -44,11 +44,23 @@
   display: flex;
   justify-content: end;
   flex-direction: row;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.288);
 }
 .container06 .info-container06 {
-  width: 45%;
+  width: 50%;
   padding-top: 13rem;
+}
+
+.container07 {
+  background: url("../images/humanFlight/03.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  align-items: start;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+.container07 .info-container07 {
+  padding-top: 8rem;
 }
 
 @media (max-width: 850px) {

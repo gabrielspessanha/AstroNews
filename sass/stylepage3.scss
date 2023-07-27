@@ -28,11 +28,19 @@
 .container06{
   @include background (url("../images/humanFlight/02.jpg") no-repeat center,cover,100vh);
   @include alignment(start, flex, end, row);
-  border-bottom: 1px solid rgba(128, 128, 128, 0.288);
 
   .info-container06{
-    width: 45%;
+    width: 50%;
     padding-top: 13rem;
+  }
+}
+
+.container07{
+  @include background (url("../images/humanFlight/03.jpg") no-repeat center,cover,100vh);
+  @include alignment(start, flex, start, row);
+
+  .info-container07{
+    padding-top: 8rem;
   }
 }
 
