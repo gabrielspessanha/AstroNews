@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container05 {
+  background: url("../images/humanFlight/01.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.info-container05 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.info-container05 h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.DescSpaceX {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: black;
+  height: 15rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+}
+.DescSpaceX p {
+  padding-inline: 5rem;
+  font-size: 1.1rem;
+}
+
+.container06 {
+  background: url("../images/humanFlight/02.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  align-items: start;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.288);
+}
+.container06 .info-container06 {
+  padding-top: 13rem;
+  position: absolute;
+}
+
+@media (max-width: 850px) {
+  .info-container01 h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 545px) {
+  .info-container01 h1 {
+    font-size: 2.5rem;
+  }
+}
+.container01 {
+  background: url("../images/01.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container02 {
+  background: url("../images/03.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container03 {
+  background: url("../images/02.gif") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container04 {
+  background: url("../images/04.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.info-container {
+  padding-top: 12rem;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: black;
+  font-size: 0.7rem;
+  padding: 5rem;
+}
+footer span {
+  color: grey;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

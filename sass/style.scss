@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+@mixin background ($background,$background-size,$min-height){
+  background: $background;
+  background-size: $background-size;
+  min-height: $min-height;
+}
+@mixin alignment($align,$display,$justfy,$direction){
+  align-items: $align;
+  display: $display;
+  justify-content: $justfy;
+  flex-direction: $direction;
+}
+
+
+
+@import "./stylepage3.scss";
+
+.container01{
+  @include background(url("../images/01.jpg") no-repeat center, cover, 100vh);
+}
+.container02{
+  @include background(url("../images/03.jpg") no-repeat center, cover, 100vh);
+}
+.container03{
+  @include background(url("../images/02.gif") no-repeat center, cover, 100vh);
+}
+.container04{
+  @include background(url("../images/04.jpg") no-repeat center, cover, 100vh);
+}
+
+.info-container{
+  padding-top: 12rem;
+}
+
+footer{
+  @include alignment(center, flex, center, row);
+  background: black;
+  font-size: 0.7rem;
+  padding: 5rem;
+
+  span{
+    color: grey;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+}
