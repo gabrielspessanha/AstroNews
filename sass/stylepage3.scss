@@ -87,15 +87,18 @@
 }
 
 .container10{
-  height: 50vh;
-  @include alignment(start, flex, start, row);
   background-color: black;
-  .info-container09{
-    padding-top: 8rem;
 
+
+  .info-container09{
+    padding-top: 13rem;
+    height: 80vh;
     h2{
       font-family: 'heavitas', sans-serif;
       font-size: 3rem;
+    }
+    a{
+      text-decoration: none;
     }
   }
 }
