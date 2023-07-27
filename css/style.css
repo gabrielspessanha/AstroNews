@@ -2,29 +2,39 @@
   margin: 0;
   padding: 0;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @font-face {
   font-family: "heavitas";
   src: url("../fonts/Heavitas.ttf") format("opentype");
 }
+#navbarNav strong {
+  color: rgb(13, 65, 156);
+}
+#navbarNav strong:hover {
+  color: rgb(19, 96, 232);
+}
+
 .container05 {
-  background: url("../images/humanFlight/01.jpg") no-repeat center;
+  background: url("../images/humanFlight/01.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
 }
-
-.info-container05 {
+.container05 .info-container05 {
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
 }
-.info-container05 h1 {
+.container05 .info-container05 h1 {
   font-family: "heavitas", sans-serif;
   font-size: 6rem;
-  text-align: center;
+}
+
+.titleSection {
+  font-family: "heavitas", sans-serif;
+  font-size: 3rem;
 }
 
 .DescSpaceX {
@@ -34,33 +44,30 @@
   flex-direction: row;
   background-color: black;
   height: 15rem;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.411);
 }
 .DescSpaceX p {
-  padding-inline: 5rem;
+  padding-inline: 4rem;
   font-size: 1.1rem;
 }
 
+.info-container06,
+.info-container08 {
+  width: 50%;
+  padding-top: 13rem;
+}
+
 .container06 {
-  background: url("../images/humanFlight/02.jpg") no-repeat center;
+  background: url("../images/humanFlight/02.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
   align-items: start;
   display: flex;
   justify-content: end;
   flex-direction: row;
-}
-.container06 .info-container06 {
-  width: 50%;
-  padding-top: 13rem;
-}
-.container06 .info-container06 h2 {
-  font-family: "heavitas", sans-serif;
-  font-size: 3rem;
 }
 
 .container07 {
-  background: url("../images/humanFlight/03.jpg") no-repeat center;
+  background: url("../images/humanFlight/03.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
   align-items: start;
@@ -68,16 +75,9 @@
   justify-content: start;
   flex-direction: row;
 }
-.container07 .info-container07 {
-  padding-top: 8rem;
-}
-.container07 .info-container07 h2 {
-  font-family: "heavitas", sans-serif;
-  font-size: 3rem;
-}
 
 .container08 {
-  background: url("../images/humanFlight/04.jpg") no-repeat center;
+  background: url("../images/humanFlight/04.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
   align-items: start;
@@ -85,44 +85,22 @@
   justify-content: end;
   flex-direction: row;
 }
-.container08 .info-container08 {
-  width: 50%;
-  padding-top: 13rem;
-}
-.container08 .info-container08 h2 {
-  font-family: "heavitas", sans-serif;
-  font-size: 3rem;
-}
 
 .container09 {
-  background: url("../images/humanFlight/05.jpg") no-repeat center;
+  background: url("../images/humanFlight/05.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
   align-items: start;
   display: flex;
   justify-content: start;
   flex-direction: row;
-}
-.container09 .info-container09 {
-  padding-top: 8rem;
-}
-.container09 .info-container09 h2 {
-  font-family: "heavitas", sans-serif;
-  font-size: 3rem;
 }
 
 .container10 {
   background-color: black;
+  height: 60vh;
 }
-.container10 .info-container09 {
-  padding-top: 13rem;
-  height: 80vh;
-}
-.container10 .info-container09 h2 {
-  font-family: "heavitas", sans-serif;
-  font-size: 3rem;
-}
-.container10 .info-container09 a {
+.container10 a {
   text-decoration: none;
 }
 
@@ -137,25 +115,25 @@
   }
 }
 .container01 {
-  background: url("../images/01.jpg") no-repeat center;
+  background: url("../images/01.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
 }
 
 .container02 {
-  background: url("../images/03.jpg") no-repeat center;
+  background: url("../images/03.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
 }
 
 .container03 {
-  background: url("../images/02.gif") no-repeat center;
+  background: url("../images/02.gif") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
 }
 
 .container04 {
-  background: url("../images/04.jpg") no-repeat center;
+  background: url("../images/04.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
 }

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 @font-face{
   font-family: "heavitas";
@@ -9,8 +10,8 @@
 }
 
 
-@mixin background ($background,$background-size,$min-height){
-  background: $background;
+@mixin background ($url,$background-size,$min-height){
+  background: url($url) no-repeat center / cover;
   background-size: $background-size;
   min-height: $min-height;
 }
@@ -21,21 +22,19 @@
   flex-direction: $direction;
 }
 
-
-
 @import "./stylepage3.scss";
 
 .container01{
-  @include background(url("../images/01.jpg") no-repeat center, cover, 100vh);
+  @include background("../images/01.jpg",cover, 100vh);
 }
 .container02{
-  @include background(url("../images/03.jpg") no-repeat center, cover, 100vh);
+  @include background("../images/03.jpg", cover, 100vh);
 }
 .container03{
-  @include background(url("../images/02.gif") no-repeat center, cover, 100vh);
+  @include background("../images/02.gif", cover, 100vh);
 }
 .container04{
-  @include background(url("../images/04.jpg") no-repeat center, cover, 100vh);
+  @include background("../images/04.jpg", cover, 100vh);
 }
 
 .info-container{

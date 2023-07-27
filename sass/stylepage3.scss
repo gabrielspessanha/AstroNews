@@ -1,118 +1,73 @@
+
+$font-family: 'heavitas', sans-serif;
+
+#navbarNav strong{
+  color: rgb(13, 65, 156);
+
+  &:hover{
+    color: rgb(19, 96, 232);
+  }
+}
 .container05{
-  @include background (url("../images/humanFlight/01.jpg") no-repeat center, cover, 100vh);
+  @include background ("../images/humanFlight/01.jpg", cover, 100vh);
+  .info-container05{
+  @include alignment(center, flex, center, column);
+    h1{
+      font-family: $font-family;
+      font-size: 6rem;
+    }
+  }
 }
 
-.info-container05{
-  @include alignment(center, flex, center, column);
-  height: 100vh;
-
-  h1{
-    font-family: 'heavitas', sans-serif;
-    font-size: 6rem;
-    text-align: center;
-  }
+.titleSection{
+  font-family: $font-family;
+  font-size: 3rem;
 }
 
 .DescSpaceX{
   @include alignment(center, flex, center, row);
   background-color: black;
   height: 15rem;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.411);
  
-
   p{
-    padding-inline: 5rem;
+    padding-inline: 4rem;
     font-size: 1.1rem;
   }
 }
 
+.info-container06,
+.info-container08{
+  width: 50%;
+  padding-top: 13rem;
+}
+
 .container06{
-  @include background (url("../images/humanFlight/02.jpg") no-repeat center,cover,100vh);
+  @include background ("../images/humanFlight/02.jpg",cover,100vh);
   @include alignment(start, flex, end, row);
-
-  .info-container06{
-    width: 50%;
-    padding-top: 13rem;
-
-    h2{
-      font-family: 'heavitas', sans-serif;
-      font-size: 3rem;
-    }
-  }
-
 }
 
 .container07{
-  @include background (url("../images/humanFlight/03.jpg") no-repeat center,cover,100vh);
+  @include background ("../images/humanFlight/03.jpg",cover,100vh);
   @include alignment(start, flex, start, row);
-
-  .info-container07{
-    padding-top: 8rem;
-
-    h2{
-      font-family: 'heavitas', sans-serif;
-      font-size: 3rem;
-    }
-  }
 }
 
 .container08{
-  @include background (url("../images/humanFlight/04.jpg") no-repeat center,cover,100vh);
+  @include background ("../images/humanFlight/04.jpg",cover,100vh);
   @include alignment(start, flex, end, row);
-
-  .info-container08{
-    width: 50%;
-    padding-top: 13rem;
-
-    h2{
-      font-family: 'heavitas', sans-serif;
-      font-size: 3rem;
-    }
-  }
-
 }
 
 .container09{
-  @include background (url("../images/humanFlight/05.jpg") no-repeat center,cover,100vh);
+  @include background ("../images/humanFlight/05.jpg",cover,100vh);
   @include alignment(start, flex, start, row);
-
-  .info-container09{
-    padding-top: 8rem;
-
-    h2{
-      font-family: 'heavitas', sans-serif;
-      font-size: 3rem;
-    }
-  }
 }
 
 .container10{
   background-color: black;
-
-
-  .info-container09{
-    padding-top: 13rem;
-    height: 80vh;
-    h2{
-      font-family: 'heavitas', sans-serif;
-      font-size: 3rem;
-    }
-    a{
-      text-decoration: none;
-    }
+  height: 60vh;
+  a{
+    text-decoration: none;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 @import "./medias.scss";
