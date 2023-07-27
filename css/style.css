@@ -48,7 +48,7 @@
 }
 .container06 .info-container06 {
   padding-top: 13rem;
-  position: absolute;
+  border: 1px solid red;
 }
 
 @media (max-width: 850px) {
