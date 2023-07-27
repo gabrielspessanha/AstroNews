@@ -42,13 +42,13 @@
   min-height: 100vh;
   align-items: start;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   flex-direction: row;
   border-bottom: 1px solid rgba(128, 128, 128, 0.288);
 }
 .container06 .info-container06 {
+  width: 45%;
   padding-top: 13rem;
-  border: 1px solid red;
 }
 
 @media (max-width: 850px) {
