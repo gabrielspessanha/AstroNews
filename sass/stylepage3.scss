@@ -1,5 +1,4 @@
-
-$font-family: 'heavitas', sans-serif;
+@import "./stylepage2.scss";
 
 #navbarNav strong{
   color: rgb(13, 65, 156);
@@ -11,7 +10,8 @@ $font-family: 'heavitas', sans-serif;
 .container05{
   @include background ("../images/humanFlight/01.jpg", cover, 100vh);
   .info-container05{
-  @include alignment(center, flex, center, column);
+    height: 80vh;
+    @include alignment(center, flex, center, column);
     h1{
       font-family: $font-family;
       font-size: 6rem;
@@ -30,7 +30,6 @@ $font-family: 'heavitas', sans-serif;
   height: 15rem;
  
   p{
-    padding-inline: 4rem;
     font-size: 1.1rem;
   }
 }

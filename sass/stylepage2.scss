@@ -1,0 +1,15 @@
+
+.container11{
+  @include background ("../images/falcon9/01.jpg",cover,100vh);
+  
+  .info-container11{
+    @include alignment(center, flex, center, column);
+    height: 60vh;
+    h1{
+      font-family: $font-family;
+      font-size: 5rem;
+    }
+  }
+}
+
+

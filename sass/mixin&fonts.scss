@@ -1,0 +1,17 @@
+@font-face{
+  font-family: "heavitas";
+  src: url('../fonts/Heavitas.ttf') format('opentype')
+}
+
+@mixin background ($url,$background-size,$min-height){
+  background: url($url) no-repeat center / cover;
+  background-size: $background-size;
+  min-height: $min-height;
+}
+
+@mixin alignment($align,$display,$justfy,$direction){
+  align-items: $align;
+  display: $display;
+  justify-content: $justfy;
+  flex-direction: $direction;
+}
