@@ -3,6 +3,12 @@
   padding: 0;
   color: white;
 }
+@font-face{
+  font-family: "heavitas";
+  src: url('../fonts/Heavitas.ttf') format('opentype')
+}
+
+
 @mixin background ($background,$background-size,$min-height){
   background: $background;
   background-size: $background-size;
@@ -42,11 +48,19 @@ footer{
   font-size: 0.7rem;
   padding: 5rem;
 
+  &:hover{
+    color:#b9b9b9 ;
+  }
+
   span{
     color: grey;
   }
   a{
     color: white;
     text-decoration: none;
+
+    &:hover{
+      color:#b9b9b9 ;
+    }
   }
 }
