@@ -143,47 +143,27 @@
 
 .container15{
   .carousels{
+    p{
+      background-color: black
+    }
+
     .coursel-01{
       @include background("../images/falcon9/09.jpg",cover,100vh);
-
-      p{
-        background-color: black
-      }
     }
     .coursel-02{
       @include background("../images/falcon9/10.jpg",cover,100vh);
-
-      p{
-        background-color: black
-      }
     }
     .coursel-03{
       @include background("../images/falcon9/11.jpg",cover,100vh);
-
-      p{
-        background-color: black
-      }
     }
     .coursel-04{
       @include background("../images/falcon9/12.jpg",cover,100vh);
-
-      p{
-        background-color: black
-      }
     }
     .coursel-05{
       @include background("../images/falcon9/13.jpg",cover,100vh);
-
-      p{
-        background-color: black
-      }
     }
     .coursel-06{
       @include background("../images/falcon9/14.jpg",cover,100vh);
-
-      p{
-        background-color: black
-      }
     }
 
 
