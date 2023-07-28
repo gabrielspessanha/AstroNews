@@ -33,8 +33,6 @@
   background-color: black;
   height: 100vh;
    
-
-
   .carousel1{
     @include background("../images/falcon9/03.jpg",cover,100vh);
     padding: 15rem 5rem; // ajustar na hora do media query
@@ -86,7 +84,6 @@
       
       }
   }
-
   .carousel4{
     @include background("../images/falcon9/06.jpg",cover,100vh);
     padding: 15rem 5rem;
@@ -99,7 +96,6 @@
         max-width: 30rem;
       }
   }
-
   .carousel5{
     @include background("../images/falcon9/07.jpg",cover,100vh);
     padding: 15rem 5rem;
@@ -120,10 +116,76 @@
        }
     
     }
-}
-
-
-
-
+  }
 }
   
+.container14{
+  @include background("../images/falcon9/08.jpg",cover,100vh);
+    padding: 15rem 5rem;
+    
+    h2{
+      font-family: $font-family;
+    }
+
+    p{
+      max-width: 30rem;
+    }
+
+    table{
+      max-width: 30rem;
+      td{
+        color:white;
+        background-color: rgba(0, 0, 0, 0)
+       }
+    
+    }
+}
+
+.container15{
+  .carousels{
+    .coursel-01{
+      @include background("../images/falcon9/09.jpg",cover,100vh);
+
+      p{
+        background-color: black
+      }
+    }
+    .coursel-02{
+      @include background("../images/falcon9/10.jpg",cover,100vh);
+
+      p{
+        background-color: black
+      }
+    }
+    .coursel-03{
+      @include background("../images/falcon9/11.jpg",cover,100vh);
+
+      p{
+        background-color: black
+      }
+    }
+    .coursel-04{
+      @include background("../images/falcon9/12.jpg",cover,100vh);
+
+      p{
+        background-color: black
+      }
+    }
+    .coursel-05{
+      @include background("../images/falcon9/13.jpg",cover,100vh);
+
+      p{
+        background-color: black
+      }
+    }
+    .coursel-06{
+      @include background("../images/falcon9/14.jpg",cover,100vh);
+
+      p{
+        background-color: black
+      }
+    }
+
+
+  }
+}
