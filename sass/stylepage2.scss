@@ -1,7 +1,6 @@
 
 .container11{
   @include background ("../images/falcon9/01.jpg",cover,100vh);
-  
   .info-container11{
     @include alignment(center, flex, center, column);
     height: 60vh;
@@ -11,5 +10,21 @@
     }
   }
 }
+.numbers{
+  padding: 6rem;
+  background-color: black;
+  
+  h1{
+    font-size: 6rem;
+  }
+}
 
+.container12{
+  @include background("../images/falcon9/02.jpg",cover,100vh);
 
+  .info-container12{
+    @include alignment(end, flex, start, row);
+    height: 60vh;
+    font-size: 1.3rem;
+  }
+}

@@ -26,6 +26,28 @@
   font-size: 5rem;
 }
 
+.numbers {
+  padding: 6rem;
+  background-color: black;
+}
+.numbers h1 {
+  font-size: 6rem;
+}
+
+.container12 {
+  background: url("../images/falcon9/02.jpg") no-repeat center/cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+.container12 .info-container12 {
+  align-items: end;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  height: 60vh;
+  font-size: 1.3rem;
+}
+
 #navbarNav strong {
   color: rgb(13, 65, 156);
 }
@@ -146,6 +168,28 @@
 .container11 .info-container11 h1 {
   font-family: "heavitas", sans-serif;
   font-size: 5rem;
+}
+
+.numbers {
+  padding: 6rem;
+  background-color: black;
+}
+.numbers h1 {
+  font-size: 6rem;
+}
+
+.container12 {
+  background: url("../images/falcon9/02.jpg") no-repeat center/cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+.container12 .info-container12 {
+  align-items: end;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  height: 60vh;
+  font-size: 1.3rem;
 }
 
 .container01 {
