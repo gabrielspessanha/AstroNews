@@ -19,6 +19,8 @@
   }
 }
 
+
+
 .container12{
   @include background("../images/falcon9/02.jpg",cover,100vh);
 
@@ -31,94 +33,55 @@
 
 .container13{
   background-color: black;
-  height: 100vh;
-   
+
+  .carousel1,
+  .carousel2,
+  .carousel3,
+  .carousel4,
+  .carousel5{
+    padding: 15rem 5rem;
+    h2{
+      font-family: $font-family;
+    }
+
+    p{
+      max-width: 30rem;
+    }
+
+    table{
+      max-width: 30rem;
+      td{
+        color:white;
+        background-color: rgba(0, 0, 0, 0)
+       }
+    
+    }
+  }
   .carousel1{
     @include background("../images/falcon9/03.jpg",cover,100vh);
     padding: 15rem 5rem; // ajustar na hora do media query
-
-    h3{
-      font-family: $font-family;
-    }
-
-    table{
-      max-width: 30rem;
-      td{
-        color:white;
-        background-color: rgba(0, 0, 0, 0)
-       }
-    
-    }
   }
   .carousel2{
     @include background("../images/falcon9/04.jpg",cover,100vh);
-    padding: 15rem 5rem;
-
-    h2{
-      font-family: $font-family;
-    }
-
-    p{
-      max-width: 30rem;
-    }
+    
   }
   .carousel3{
-      @include background("../images/falcon9/05.jpg",cover,100vh);
-      padding: 15rem 5rem;
-      
-      h2{
-        font-family: $font-family;
-      }
-
-      p{
-        max-width: 30rem;
-      }
-
-
-      table{
-        max-width: 30rem;
-        td{
-          color:white;
-          background-color: rgba(0, 0, 0, 0)
-         }
-      
-      }
+    @include background("../images/falcon9/05.jpg",cover,100vh);
+    
   }
   .carousel4{
     @include background("../images/falcon9/06.jpg",cover,100vh);
-    padding: 15rem 5rem;
-      
-      h2{
-        font-family: $font-family;
-      }
-
-      p{
-        max-width: 30rem;
-      }
+    
   }
   .carousel5{
     @include background("../images/falcon9/07.jpg",cover,100vh);
-    padding: 15rem 5rem;
     
-    h2{
-      font-family: $font-family;
-    }
-
-    p{
-      max-width: 30rem;
-    }
-
-    table{
-      max-width: 30rem;
-      td{
-        color:white;
-        background-color: rgba(0, 0, 0, 0)
-       }
     
-    }
+    
   }
 }
   
+
 .container14{
   @include background("../images/falcon9/08.jpg",cover,100vh);
     padding: 15rem 5rem;

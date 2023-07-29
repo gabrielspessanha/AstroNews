@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 @font-face {
@@ -50,7 +50,42 @@
 
 .container13 {
   background-color: black;
-  height: 100vh;
+}
+.container13 .carousel1,
+.container13 .carousel2,
+.container13 .carousel3,
+.container13 .carousel4,
+.container13 .carousel5 {
+  padding: 15rem 5rem;
+}
+.container13 .carousel1 h2,
+.container13 .carousel2 h2,
+.container13 .carousel3 h2,
+.container13 .carousel4 h2,
+.container13 .carousel5 h2 {
+  font-family: "heavitas", sans-serif;
+}
+.container13 .carousel1 p,
+.container13 .carousel2 p,
+.container13 .carousel3 p,
+.container13 .carousel4 p,
+.container13 .carousel5 p {
+  max-width: 30rem;
+}
+.container13 .carousel1 table,
+.container13 .carousel2 table,
+.container13 .carousel3 table,
+.container13 .carousel4 table,
+.container13 .carousel5 table {
+  max-width: 30rem;
+}
+.container13 .carousel1 table td,
+.container13 .carousel2 table td,
+.container13 .carousel3 table td,
+.container13 .carousel4 table td,
+.container13 .carousel5 table td {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 .container13 .carousel1 {
   background: url("../images/falcon9/03.jpg") no-repeat center/cover;
@@ -58,77 +93,25 @@
   min-height: 100vh;
   padding: 15rem 5rem;
 }
-.container13 .carousel1 h3 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel1 table {
-  max-width: 30rem;
-}
-.container13 .carousel1 table td {
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
-}
 .container13 .carousel2 {
   background: url("../images/falcon9/04.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container13 .carousel2 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel2 p {
-  max-width: 30rem;
 }
 .container13 .carousel3 {
   background: url("../images/falcon9/05.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container13 .carousel3 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel3 p {
-  max-width: 30rem;
-}
-.container13 .carousel3 table {
-  max-width: 30rem;
-}
-.container13 .carousel3 table td {
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
 }
 .container13 .carousel4 {
   background: url("../images/falcon9/06.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container13 .carousel4 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel4 p {
-  max-width: 30rem;
 }
 .container13 .carousel5 {
   background: url("../images/falcon9/07.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container13 .carousel5 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel5 p {
-  max-width: 30rem;
-}
-.container13 .carousel5 table {
-  max-width: 30rem;
-}
-.container13 .carousel5 table td {
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
 }
 
 .container14 {
@@ -280,14 +263,9 @@
   text-decoration: none;
 }
 
-@media (max-width: 850px) {
-  .info-container01 h1 {
-    font-size: 5rem;
-  }
-}
-@media (max-width: 545px) {
-  .info-container01 h1 {
-    font-size: 2.5rem;
+@media (max-width: 500px) {
+  .info-container11 h1 {
+    font-size: 0.3rem;
   }
 }
 .container11 {
@@ -331,7 +309,42 @@
 
 .container13 {
   background-color: black;
-  height: 100vh;
+}
+.container13 .carousel1,
+.container13 .carousel2,
+.container13 .carousel3,
+.container13 .carousel4,
+.container13 .carousel5 {
+  padding: 15rem 5rem;
+}
+.container13 .carousel1 h2,
+.container13 .carousel2 h2,
+.container13 .carousel3 h2,
+.container13 .carousel4 h2,
+.container13 .carousel5 h2 {
+  font-family: "heavitas", sans-serif;
+}
+.container13 .carousel1 p,
+.container13 .carousel2 p,
+.container13 .carousel3 p,
+.container13 .carousel4 p,
+.container13 .carousel5 p {
+  max-width: 30rem;
+}
+.container13 .carousel1 table,
+.container13 .carousel2 table,
+.container13 .carousel3 table,
+.container13 .carousel4 table,
+.container13 .carousel5 table {
+  max-width: 30rem;
+}
+.container13 .carousel1 table td,
+.container13 .carousel2 table td,
+.container13 .carousel3 table td,
+.container13 .carousel4 table td,
+.container13 .carousel5 table td {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 .container13 .carousel1 {
   background: url("../images/falcon9/03.jpg") no-repeat center/cover;
@@ -339,77 +352,25 @@
   min-height: 100vh;
   padding: 15rem 5rem;
 }
-.container13 .carousel1 h3 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel1 table {
-  max-width: 30rem;
-}
-.container13 .carousel1 table td {
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
-}
 .container13 .carousel2 {
   background: url("../images/falcon9/04.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container13 .carousel2 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel2 p {
-  max-width: 30rem;
 }
 .container13 .carousel3 {
   background: url("../images/falcon9/05.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container13 .carousel3 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel3 p {
-  max-width: 30rem;
-}
-.container13 .carousel3 table {
-  max-width: 30rem;
-}
-.container13 .carousel3 table td {
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
 }
 .container13 .carousel4 {
   background: url("../images/falcon9/06.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container13 .carousel4 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel4 p {
-  max-width: 30rem;
 }
 .container13 .carousel5 {
   background: url("../images/falcon9/07.jpg") no-repeat center/cover;
   background-size: cover;
   min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container13 .carousel5 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel5 p {
-  max-width: 30rem;
-}
-.container13 .carousel5 table {
-  max-width: 30rem;
-}
-.container13 .carousel5 table td {
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
 }
 
 .container14 {
@@ -466,6 +427,10 @@
   min-height: 100vh;
 }
 
+p.h1 {
+  font-weight: 900;
+}
+
 .container01 {
   background: url("../images/01.jpg") no-repeat center/cover;
   background-size: cover;
@@ -512,6 +477,12 @@ footer a {
 }
 footer a:hover {
   color: #b9b9b9;
+}
+
+@media (max-width: 500px) {
+  .info-container11 h1 {
+    font-size: 0.3rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
