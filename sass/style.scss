@@ -4,10 +4,12 @@
   color: white;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 $font-family: 'heavitas', sans-serif;
 @import "./mixin&fonts.scss";
 @import "./stylepage3.scss";
 @import "./stylepage2.scss";
+
 p.h1{
   font-weight: 900;
 }
@@ -45,5 +47,4 @@ footer{
     }
   }
 }
-
 @import "./medias.scss";
