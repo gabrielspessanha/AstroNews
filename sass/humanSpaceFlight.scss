@@ -43,9 +43,20 @@
 .container10{
   background-color: $color-secundary;
   height: 60vh;
+  text-align: center;
+
   a{
     text-decoration: none;
   }
+  .info-container10{
+    button{
+      margin-top: 1.5rem;
+      padding: 1rem 2rem;
+      border: 2px solid;
+    }
+  }
+  
+  
 }
 
 .info-container06,
