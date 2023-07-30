@@ -20,7 +20,7 @@
 }
 .container12{
   @include background("../images/falcon9/02.jpg",cover,100vh);
-
+  
   .info-container12{
     @include alignment(end, flex, start, row);
     height: 60vh;
@@ -35,7 +35,7 @@
   .carousel3,
   .carousel4,
   .carousel5{
-    padding: 15rem 5rem;
+    padding: 12rem 0rem;
     h2{
       font-family: $font-heavitas;
     }

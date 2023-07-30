@@ -9,18 +9,19 @@
       font-size: 6rem;
     }
     p{
-      max-width: 90%;
+      font-size: 2rem;
     }
   }
-}
-.titleSection{
-  font-family: $font-heavitas;
-  font-size: 3rem;
 }
 .DescSpaceX{
   @include alignment(center, flex, center, row);
   background-color: $color-secundary;
-  padding: 8rem;
+  padding: 3rem;
+}
+
+.titleSection{
+  font-family: $font-heavitas;
+  font-size: 3rem;
 }
 .container06{
   @include background ("../images/humanFlight/02.jpg",cover,100vh);
