@@ -2,8 +2,14 @@
 }
 
 @media (max-width: 500px){
-  h1{
-    font-size: 2px;
+
+  .container11{
+    border:2px solid green;
+
+    h1{
+      font-size: 2rem;
+      border:2px solid green;
+    }
   }
 }
 

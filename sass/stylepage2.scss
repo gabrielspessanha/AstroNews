@@ -8,11 +8,12 @@
       font-family: $font-family;
       font-size: 5rem;
     }
+
   }
 }
 .numbers{
   padding: 6rem;
-  background-color: black;
+  background-color: $color-secundary;
   
   h1{
     font-size: 6rem;
@@ -32,7 +33,7 @@
 }
 
 .container13{
-  background-color: black;
+  background-color: $color-secundary;
 
   .carousel1,
   .carousel2,
@@ -132,3 +133,4 @@
 
   }
 }
+

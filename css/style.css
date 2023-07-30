@@ -1,173 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
 @font-face {
   font-family: "heavitas";
   src: url("../fonts/Heavitas.ttf") format("opentype");
 }
-.container11 {
-  background: url("../images/falcon9/01.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container11 .info-container11 {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 60vh;
-}
-.container11 .info-container11 h1 {
-  font-family: "heavitas", sans-serif;
-  font-size: 5rem;
-}
-
-.numbers {
-  padding: 6rem;
-  background-color: black;
-}
-.numbers h1 {
-  font-size: 6rem;
-}
-
-.container12 {
-  background: url("../images/falcon9/02.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container12 .info-container12 {
-  align-items: end;
-  display: flex;
-  justify-content: start;
-  flex-direction: row;
-  height: 60vh;
-  font-size: 1.3rem;
-}
-
-.container13 {
-  background-color: black;
-}
-.container13 .carousel1,
-.container13 .carousel2,
-.container13 .carousel3,
-.container13 .carousel4,
-.container13 .carousel5 {
-  padding: 15rem 5rem;
-}
-.container13 .carousel1 h2,
-.container13 .carousel2 h2,
-.container13 .carousel3 h2,
-.container13 .carousel4 h2,
-.container13 .carousel5 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container13 .carousel1 p,
-.container13 .carousel2 p,
-.container13 .carousel3 p,
-.container13 .carousel4 p,
-.container13 .carousel5 p {
-  max-width: 30rem;
-}
-.container13 .carousel1 table,
-.container13 .carousel2 table,
-.container13 .carousel3 table,
-.container13 .carousel4 table,
-.container13 .carousel5 table {
-  max-width: 30rem;
-}
-.container13 .carousel1 table td,
-.container13 .carousel2 table td,
-.container13 .carousel3 table td,
-.container13 .carousel4 table td,
-.container13 .carousel5 table td {
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
-}
-.container13 .carousel1 {
-  background: url("../images/falcon9/03.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container13 .carousel2 {
-  background: url("../images/falcon9/04.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container13 .carousel3 {
-  background: url("../images/falcon9/05.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container13 .carousel4 {
-  background: url("../images/falcon9/06.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container13 .carousel5 {
-  background: url("../images/falcon9/07.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.container14 {
-  background: url("../images/falcon9/08.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-  padding: 15rem 5rem;
-}
-.container14 h2 {
-  font-family: "heavitas", sans-serif;
-}
-.container14 p {
-  max-width: 30rem;
-}
-.container14 table {
-  max-width: 30rem;
-}
-.container14 table td {
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.container15 .carousels p {
-  background-color: black;
-}
-.container15 .carousels .coursel-01 {
-  background: url("../images/falcon9/09.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container15 .carousels .coursel-02 {
-  background: url("../images/falcon9/10.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container15 .carousels .coursel-03 {
-  background: url("../images/falcon9/11.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container15 .carousels .coursel-04 {
-  background: url("../images/falcon9/12.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container15 .carousels .coursel-05 {
-  background: url("../images/falcon9/13.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-.container15 .carousels .coursel-06 {
-  background: url("../images/falcon9/14.jpg") no-repeat center/cover;
-  background-size: cover;
-  min-height: 100vh;
-}
-
 #navbarNav strong {
   color: rgb(13, 65, 156);
 }
@@ -191,6 +25,9 @@
   font-family: "heavitas", sans-serif;
   font-size: 6rem;
 }
+.container05 .info-container05 p {
+  max-width: 90%;
+}
 
 .titleSection {
   font-family: "heavitas", sans-serif;
@@ -202,17 +39,13 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: black;
-  height: 15rem;
-}
-.DescSpaceX p {
-  font-size: 1.1rem;
+  background-color: rgb(0, 0, 0);
+  padding: 8rem;
 }
 
 .info-container06,
 .info-container08 {
   width: 50%;
-  padding-top: 13rem;
 }
 
 .container06 {
@@ -264,8 +97,12 @@
 }
 
 @media (max-width: 500px) {
-  h1 {
-    font-size: 2px;
+  .container11 {
+    border: 2px solid green;
+  }
+  .container11 h1 {
+    font-size: 2rem;
+    border: 2px solid green;
   }
 }
 .container11 {
@@ -287,7 +124,7 @@
 
 .numbers {
   padding: 6rem;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 .numbers h1 {
   font-size: 6rem;
@@ -308,7 +145,7 @@
 }
 
 .container13 {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 .container13 .carousel1,
 .container13 .carousel2,
@@ -427,8 +264,11 @@
   min-height: 100vh;
 }
 
-p.h1 {
-  font-weight: 900;
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(245, 245, 245);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container01 {
@@ -458,21 +298,29 @@ p.h1 {
 .info-container {
   padding-top: 10rem;
 }
+.info-container button {
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  border: 2px solid;
+}
+.info-container p {
+  max-width: 38rem;
+}
 
 footer {
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background: black;
-  font-size: 0.7rem;
+  background: rgb(0, 0, 0);
+  font-size: 0.8rem;
   padding: 5rem;
 }
 footer span {
-  color: grey;
+  color: #b9b9b9;
 }
 footer a {
-  color: white;
+  color: rgb(245, 245, 245);
   text-decoration: none;
 }
 footer a:hover {
@@ -480,8 +328,12 @@ footer a:hover {
 }
 
 @media (max-width: 500px) {
-  h1 {
-    font-size: 2px;
+  .container11 {
+    border: 2px solid green;
+  }
+  .container11 h1 {
+    font-size: 2rem;
+    border: 2px solid green;
   }
 }
 
