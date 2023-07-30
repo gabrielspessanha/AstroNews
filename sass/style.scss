@@ -1,9 +1,6 @@
-$color-primary: rgb(245, 245, 245);
-$color-secundary: rgb(0, 0, 0);
-$color-tertiary:#b9b9b9;
-$font-heavitas: 'heavitas', sans-serif;
 
-@import "./mixin&fonts.scss";
+@import "./elements/colors.scss";
+@import "./elements/mixin&fonts.scss";
 @import "./humanSpaceFlight.scss";
 @import "./falcon9.scss";
 
@@ -15,6 +12,7 @@ $font-heavitas: 'heavitas', sans-serif;
 }
 
 #navbarNav strong{
+  
   color: rgb(13, 65, 156);
 
   &:hover{
@@ -22,19 +20,24 @@ $font-heavitas: 'heavitas', sans-serif;
   }
 }
 
+.container00{
 
-.container01{
-  @include background("../images/01.jpg",cover, 100vh);
+  &.container01{
+    @include background("../images/01.jpg",cover, 100vh);
+  }
+
+  &.container02{
+    @include background("../images/03.jpg", cover, 100vh);
+  }
+
+  &.container03{
+    @include background("../images/02.gif", cover, 100vh);
+  }
+  &.container04{
+    @include background("../images/04.jpg", cover, 100vh);
+  }
 }
-.container02{
-  @include background("../images/03.jpg", cover, 100vh);
-}
-.container03{
-  @include background("../images/02.gif", cover, 100vh);
-}
-.container04{
-  @include background("../images/04.jpg", cover, 100vh);
-}
+
 .info-container{
   padding-top: 10rem;
 
@@ -47,6 +50,7 @@ $font-heavitas: 'heavitas', sans-serif;
     max-width: 38rem;
   }
 }
+
 footer{
   @include alignment(center, flex, center, row);
   background: $color-secundary;
@@ -64,4 +68,5 @@ footer{
     }
   }
 }
-@import "./medias.scss";
+
+@import "./elements/medias.scss";
