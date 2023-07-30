@@ -8,11 +8,11 @@
   min-height: 100vh;
 }
 .container05 .info-container05 {
-  height: 80vh;
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 80vh;
 }
 .container05 .info-container05 h1 {
   font-family: "heavitas", sans-serif;
@@ -116,11 +116,11 @@
 }
 
 .numbers {
-  padding: 6rem;
+  padding: 8rem;
   background-color: rgb(0, 0, 0);
 }
 .numbers h1 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .container12 {
@@ -134,7 +134,7 @@
   justify-content: start;
   flex-direction: row;
   height: 60vh;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .container13 {
@@ -155,25 +155,28 @@
   font-family: "heavitas", sans-serif;
 }
 .container13 .carousel1 p,
-.container13 .carousel2 p,
-.container13 .carousel3 p,
-.container13 .carousel4 p,
-.container13 .carousel5 p {
-  max-width: 30rem;
-}
 .container13 .carousel1 table,
+.container13 .carousel2 p,
 .container13 .carousel2 table,
+.container13 .carousel3 p,
 .container13 .carousel3 table,
+.container13 .carousel4 p,
 .container13 .carousel4 table,
+.container13 .carousel5 p,
 .container13 .carousel5 table {
   max-width: 30rem;
 }
+.container13 .carousel1 p td,
 .container13 .carousel1 table td,
+.container13 .carousel2 p td,
 .container13 .carousel2 table td,
+.container13 .carousel3 p td,
 .container13 .carousel3 table td,
+.container13 .carousel4 p td,
 .container13 .carousel4 table td,
+.container13 .carousel5 p td,
 .container13 .carousel5 table td {
-  color: white;
+  color: rgb(245, 245, 245);
   background-color: rgba(0, 0, 0, 0);
 }
 .container13 .carousel1 {
@@ -212,14 +215,13 @@
 .container14 h2 {
   font-family: "heavitas", sans-serif;
 }
-.container14 p {
-  max-width: 30rem;
-}
+.container14 p,
 .container14 table {
   max-width: 30rem;
 }
+.container14 p td,
 .container14 table td {
-  color: white;
+  color: rgb(245, 245, 245);
   background-color: rgba(0, 0, 0, 0);
 }
 

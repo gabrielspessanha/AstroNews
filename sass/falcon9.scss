@@ -8,30 +8,25 @@
       font-family: $font-heavitas;
       font-size: 5rem;
     }
-
   }
 }
 .numbers{
-  padding: 6rem;
+  padding: 8rem;
   background-color: $color-secundary;
   
   h1{
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
-
-
-
 .container12{
   @include background("../images/falcon9/02.jpg",cover,100vh);
 
   .info-container12{
     @include alignment(end, flex, start, row);
     height: 60vh;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
-
 .container13{
   background-color: $color-secundary;
 
@@ -44,16 +39,12 @@
     h2{
       font-family: $font-heavitas;
     }
-
-    p{
-      max-width: 30rem;
-    }
-
+    p,
     table{
       max-width: 30rem;
       td{
-        color:white;
-        background-color: rgba(0, 0, 0, 0)
+        color:$color-primary;
+        background-color: rgba(0, 0, 0, 0);
        }
     
     }
@@ -64,7 +55,6 @@
   }
   .carousel2{
     @include background("../images/falcon9/04.jpg",cover,100vh);
-    
   }
   .carousel3{
     @include background("../images/falcon9/05.jpg",cover,100vh);
@@ -78,8 +68,6 @@
     @include background("../images/falcon9/07.jpg",cover,100vh);
   }
 }
-  
-
 .container14{
   @include background("../images/falcon9/08.jpg",cover,100vh);
     padding: 15rem 5rem;
@@ -87,21 +75,16 @@
     h2{
       font-family: $font-heavitas;
     }
-
-    p{
-      max-width: 30rem;
-    }
-
+    p,
     table{
       max-width: 30rem;
       td{
-        color:white;
+        color:$color-primary;
         background-color: rgba(0, 0, 0, 0)
        }
     
     }
 }
-
 .container15{
   .carousels{
     p{

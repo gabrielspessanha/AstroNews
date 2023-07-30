@@ -2,8 +2,8 @@
 .container05{
   @include background ("../images/humanFlight/01.jpg", cover, 100vh);
   .info-container05{
-    height: 80vh;
     @include alignment(center, flex, center, column);
+    height: 80vh;
     h1{
       font-family: $font-heavitas;
       font-size: 6rem;
