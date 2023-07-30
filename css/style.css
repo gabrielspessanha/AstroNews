@@ -2,13 +2,6 @@
   font-family: "heavitas";
   src: url("../fonts/Heavitas.ttf") format("opentype");
 }
-#navbarNav strong {
-  color: rgb(13, 65, 156);
-}
-#navbarNav strong:hover {
-  color: rgb(19, 96, 232);
-}
-
 .container05 {
   background: url("../images/humanFlight/01.jpg") no-repeat center/cover;
   background-size: cover;
@@ -41,11 +34,6 @@
   flex-direction: row;
   background-color: rgb(0, 0, 0);
   padding: 8rem;
-}
-
-.info-container06,
-.info-container08 {
-  width: 50%;
 }
 
 .container06 {
@@ -89,11 +77,16 @@
 }
 
 .container10 {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   height: 60vh;
 }
 .container10 a {
   text-decoration: none;
+}
+
+.info-container06,
+.info-container08 {
+  width: 50%;
 }
 
 @media (max-width: 500px) {
@@ -231,7 +224,7 @@
 }
 
 .container15 .carousels p {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 .container15 .carousels .coursel-01 {
   background: url("../images/falcon9/09.jpg") no-repeat center/cover;
@@ -269,6 +262,13 @@
   padding: 0;
   color: rgb(245, 245, 245);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbarNav strong {
+  color: rgb(13, 65, 156);
+}
+#navbarNav strong:hover {
+  color: rgb(19, 96, 232);
 }
 
 .container01 {

@@ -1,25 +1,25 @@
 $color-primary: rgb(245, 245, 245);
 $color-secundary: rgb(0, 0, 0);
 $color-tertiary:#b9b9b9;
-
-
-
-
-$font-family: 'heavitas', sans-serif;
-
-
-
+$font-heavitas: 'heavitas', sans-serif;
 
 @import "./mixin&fonts.scss";
 @import "./stylepage3.scss";
 @import "./stylepage2.scss";
-
 
 *{
   margin: 0;
   padding: 0;
   color: $color-primary;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbarNav strong{
+  color: rgb(13, 65, 156);
+
+  &:hover{
+    color: rgb(19, 96, 232);
+  }
 }
 
 
@@ -35,7 +35,6 @@ $font-family: 'heavitas', sans-serif;
 .container04{
   @include background("../images/04.jpg", cover, 100vh);
 }
-
 .info-container{
   padding-top: 10rem;
 
@@ -48,7 +47,6 @@ $font-family: 'heavitas', sans-serif;
     max-width: 38rem;
   }
 }
-
 footer{
   @include alignment(center, flex, center, row);
   background: $color-secundary;

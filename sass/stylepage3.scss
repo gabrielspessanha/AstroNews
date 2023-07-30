@@ -1,17 +1,11 @@
-#navbarNav strong{
-  color: rgb(13, 65, 156);
 
-  &:hover{
-    color: rgb(19, 96, 232);
-  }
-}
 .container05{
   @include background ("../images/humanFlight/01.jpg", cover, 100vh);
   .info-container05{
     height: 80vh;
     @include alignment(center, flex, center, column);
     h1{
-      font-family: $font-family;
+      font-family: $font-heavitas;
       font-size: 6rem;
     }
     p{
@@ -19,50 +13,43 @@
     }
   }
 }
-
 .titleSection{
-  font-family: $font-family;
+  font-family: $font-heavitas;
   font-size: 3rem;
 }
-
 .DescSpaceX{
   @include alignment(center, flex, center, row);
   background-color: $color-secundary;
   padding: 8rem;
 }
-
-.info-container06,
-.info-container08{
-  width: 50%;
-}
-
 .container06{
   @include background ("../images/humanFlight/02.jpg",cover,100vh);
   @include alignment(start, flex, end, row);
+  
 }
-
 .container07{
   @include background ("../images/humanFlight/03.jpg",cover,100vh);
   @include alignment(start, flex, start, row);
 }
-
 .container08{
   @include background ("../images/humanFlight/04.jpg",cover,100vh);
   @include alignment(start, flex, end, row);
 }
-
 .container09{
   @include background ("../images/humanFlight/05.jpg",cover,100vh);
   @include alignment(start, flex, start, row);
 }
-
 .container10{
-  background-color: black;
+  background-color: $color-secundary;
   height: 60vh;
   a{
     text-decoration: none;
   }
 }
 
+.info-container06,
+.info-container08{
+  width: 50%;
+}
 
 @import "./medias.scss";

@@ -5,7 +5,7 @@
     @include alignment(center, flex, center, column);
     height: 60vh;
     h1{
-      font-family: $font-family;
+      font-family: $font-heavitas;
       font-size: 5rem;
     }
 
@@ -42,7 +42,7 @@
   .carousel5{
     padding: 15rem 5rem;
     h2{
-      font-family: $font-family;
+      font-family: $font-heavitas;
     }
 
     p{
@@ -76,9 +76,6 @@
   }
   .carousel5{
     @include background("../images/falcon9/07.jpg",cover,100vh);
-    
-    
-    
   }
 }
   
@@ -88,7 +85,7 @@
     padding: 15rem 5rem;
     
     h2{
-      font-family: $font-family;
+      font-family: $font-heavitas;
     }
 
     p{
@@ -108,7 +105,7 @@
 .container15{
   .carousels{
     p{
-      background-color: black
+      background-color: $color-secundary;
     }
 
     .coursel-01{
